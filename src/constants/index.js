@@ -4,6 +4,36 @@ import project3 from "../assets/projects/project-3.jpg";
 
 export const HERO_CONTENT = `Problem Solver. Adaptive. Forever Student`;
 
+export const quotes = [
+  '"May the Force be with you."',
+  '"I\'m gonna make him an offer he can\'t refuse."',
+  '"You can\'t handle the truth!"',
+  '"I\'ll be back."',
+  '"Life is like a box of chocolates. You never know what you\'re gonna get."',
+  '"I see dead people."',
+  '"Hasta la vista, baby."',
+  '"Why so serious?"',
+  '"Bond. James Bond."',
+  '"I am your father." ',
+  '"Houston, we have a problem."',
+  '"Go ahead, make my day."',
+  '"Here\'s Johnny!"',
+  '"To infinity and beyond!"',
+  '"I’ll take a potato chip... and eat it!"',
+  '"Believe it!"',
+  '"I am going to be King of the Pirates!"',
+  '"I am justice!"',
+  '"I don\'t know everything. I just know what I know"',
+  '"Bang."',
+  '"I am the hope of the universe. I am the answer to all living things that cry out for peace." ',
+  '"People\'s lives don\'t end when they die, it ends when they lose faith."',
+  '"I see now that the circumstances of one\'s birth are irrelevant. It is what you do with the gift of life that determines who you are."',
+  '"I\'ll be back. Count on it."',
+  '"In the name of the Moon, I will punish you!"',
+  '"The moment you think of giving up, think of the reason why you held on so long."',
+  '"A lesson without pain is meaningless. That’s because no one can gain without sacrificing something."',
+];
+
 export const ABOUT_TEXT = `A dedicated Software Engineer, currently developing robust server-side components using Java JRE 11, PostgreSQL, and Tomcat 9 at IpserLab. With over a year of professional experience, I possess proficiency in a wide range of engineering technologies. Passionate about problem-solving, I thrive on the challenge of breaking down complex issues into manageable solutions. My enthusiasm for technology drives me to continuously learn and adapt to new advancements.`;
 
 export const EXPERIENCES = [
