@@ -1,5 +1,5 @@
 {
-  "homepage": "https://vizchan99.github.io/main",
+  "homepage": "https://vizchan99.github.io/Portfolio",
   "name": "portfolio-2",
   "private": true,
   "version": "0.0.0",
@@ -9,7 +9,7 @@
     "build": "vite build",
     "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
     "preview": "vite preview",
-    "predeploy": "npm run dev",
+    "predeploy": "npm run build",
     "deploy": "gh-pages -d build"
   },
   "dependencies": {
@@ -30,6 +30,7 @@
     "gh-pages": "^6.1.1",
     "postcss": "^8.4.39",
     "tailwindcss": "^3.4.6",
-    "vite": "^5.3.4"
+    "vite": "^5.3.4",
+    "vite-plugin-gh-pages": "^0.4.1"
   }
 }
