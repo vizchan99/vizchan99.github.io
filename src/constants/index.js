@@ -47,11 +47,11 @@ export const EXPERIENCES = [
   },
   {
     year: "Apr 2021 - June 2022",
-    role: "Software Engineer",
-    company: "Subhash AgroTech",
-    description: `• Led the overhaul of the website, resulting in a 30% increase in website traffic within the first three months
-                  • Integrated ReactJS with Django REST APIs, netting 40% improvement in load times, 25% increase in system reliability 
-                  • Implemented microservices architecture with Kubernetes and Docker. Deployed on AWS EC2 cloud. `,
+    role: "Software Engineer I",
+    company: "Amazon",
+    description: `• Developed and maintained scalable, high-performance software for Amazon's cloud-based services, focusing on optimizing system efficiency and reliability.
+                  • Collaborated with cross-functional teams to design, develop, test, and deploy features improving user experience
+                  • Utilized core Amazon Web Services (AWS) technologies, including EC2 and Lambda, to build applications and services. `,
     technologies: ["HTML", "CSS", "ReactJS", "Django", "AWS"],
   },
   {
