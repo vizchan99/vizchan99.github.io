@@ -1,3 +1,3 @@
 # Personal Portfolio
-Created using ReactJS with Flutter-motion.
+Created using Vite+ReactJS with Flutter-motion.
 
