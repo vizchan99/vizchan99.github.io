@@ -46,15 +46,6 @@ export const EXPERIENCES = [
     technologies: ["Java", "React.js", "SQL", "HTML", "CSS"],
   },
   {
-    year: "Apr 2021 - June 2022",
-    role: "Software Engineer I",
-    company: "Amazon",
-    description: `• Developed and maintained scalable, high-performance software for Amazon's cloud-based services, focusing on optimizing system efficiency and reliability.
-                  • Collaborated with cross-functional teams to design, develop, test, and deploy features improving user experience
-                  • Utilized core Amazon Web Services (AWS) technologies, including EC2 and Lambda, to build applications and services. `,
-    technologies: ["HTML", "CSS", "ReactJS", "Django", "AWS"],
-  },
-  {
     year: "Jul 2020 – Sep 2020",
     role: "Machine Learning Intern",
     company: "Indian Servers",
