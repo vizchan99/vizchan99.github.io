@@ -34,28 +34,49 @@ export const quotes = [
   '"A lesson without pain is meaningless. That’s because no one can gain without sacrificing something."',
 ];
 
-export const ABOUT_TEXT = `A dedicated Software Engineer, currently developing robust server-side components using Java JRE 11, PostgreSQL, and Tomcat 9 at IpserLab. With over a year of professional experience, I possess proficiency in a wide range of engineering technologies. Passionate about problem-solving, I thrive on the challenge of breaking down complex issues into manageable solutions. My enthusiasm for technology drives me to continuously learn and adapt to new advancements.`;
+export const ABOUT_TEXT = `I possess proficiency in a wide range of engineering technologies. Passionate about problem-solving, I thrive on the challenge of breaking down complex issues into manageable solutions. My enthusiasm for technology drives me to continuously learn and adapt to new advancements.`;
 
 export const EXPERIENCES = [
   {
-    year: "June 2024 - Present",
+    year: "Feb 2024 - Feb 2025",
+    role: "Software Engineer Intern",
+    company: "Sony Electronics",
+    description: `•	Built scalable backend microservices architecture including notification service for push alerts, user profile management service, content metadata service with proper service isolation, API versioning, and comprehensive documentation
+                  •	Designed generative AI pipelines using vector embeddings and similarity search algorithms for semantic content matching, enabling intelligent game recommendations for PlayStation users
+                  •	Developed MongoDB data processing workflows with optimized queries and indexing for high-performance analytics
+                  •	Created MongoDB migration scripts and data validation processes for production deployments`,
+    technologies: ["Python", "MongoDB", "SQL", "Node.js", "GenAI", "NLP"],
+  },
+  {
+    year: "Apr 2021 - Aug 2022",
     role: "Software Engineer",
-    company: "IpserLab",
-    description: `• Engineering server-side components utilizing Java JRE 11, PostgreSQL, Tomcat 9  
-                  • Developing a robust E-Commerce website with ReactJS, HTML, CSS frontend and Stripe API `,
-    technologies: ["Java", "React.js", "SQL", "HTML", "CSS"],
+    company: "Cognizant",
+    description: `•	Built payment processing microservice using C# and .NET Core, handling transaction validation and MongoDB data persistence for e-commerce platform serving 50K+ daily users
+                  •	Developed user authentication API with JWT token management and role-based access control, integrating with existing Active Directory services
+                  •	Optimized MongoDB aggregation pipelines for customer analytics dashboard, reducing query execution time from 8 seconds to 2 seconds through proper indexing strategies
+                  •	Developed custom validation attributes for .NET controllers, eliminating 200+ lines of repetitive validation code across 15 API endpoints`,
+    technologies: ["C#", ".NET Core", "MongoDB"],
   },
   {
     year: "Jul 2020 – Sep 2020",
     role: "Machine Learning Intern",
     company: "Indian Servers",
     description: `• Placed 1st in internal company contest on Mobile Price Range Prediction with accuracy of 97.5 percent against 172 interns 
-                  • Led a team of 4 to construct a Real-Time Fatigue Detection System with OpenCV and Deep Learning as final project `,
+                  • Led a team of 4 to construct a Real-Time Fatigue Detection System with OpenCV and Deep CNNs `,
     technologies: ["Python", "PyTorch", "OpenCV", "Numpy", "Pandas"],
   }
 ];
 
 export const PROJECTS = [
+  {
+    title: "Spaces - A new social network!",
+    image: project4,
+    description:`• Architected and implemented a backend system using Django, enabling real-time features and WebSocket communication 
+                 • Engineered RESTful APIs and WebSocket endpoints for messaging, live notifications using REST Framework and Django Channels 
+                 • Integrated WebRTC technology for voice communication rooms with STUN/TURN server configuration for NAT traversal 
+                 • Designed and implemented a scalable database architecture using PostgreSQL with Django ORM `,
+    technologies: ["C#", "SwiftUI", "MongoDB", "Docker", "REST APIs", "Python"],
+  },
   {
     title: "NCVS – Data Analysis to Identify Victims of Bullying in Children",
     image: project1,
@@ -83,7 +104,7 @@ export const PROJECTS = [
 ];
 
 export const CONTACT = {
-  address: "1629 Commonwealth Ave, Boston, MA",
+  address: "Dallas, TX",
   phoneNo: "+1 (972)672-1506 ",
-  email: "vijaykesari99@outlook.com",
+  email: "vkesari99@outlook.com",
 };
